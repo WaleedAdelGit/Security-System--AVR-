@@ -4,14 +4,14 @@ A security system built using **ATmega32**, where users must enter a **username 
 The system allows **three login attempts** before it locks. After successful login, the user can control **LEDs**, check **temperature**, and manage **cameras**.  
 It also supports **erase** and **return** functions while typing.
 
-## 🔹 Features
+##  Features
 - Username & password authentication (3 trials then lock)
 - Door motor control on successful login
 - LED, temperature, and camera control options
 - Erase and return keys for input correction
 - Lockout for unauthorized access
 
-## 🔹 Hardware Used
+##  Hardware Used
 - ATmega32 microcontroller  
 - LCD (16x2)  
 - Keypad  
@@ -19,7 +19,7 @@ It also supports **erase** and **return** functions while typing.
 - Temperature sensor (e.g., LM35)  
 - LEDs and camera module  
 
-## 🔹 How It Works
+##  How It Works
 1. Enter username and password using the keypad.  
 2. If valid → door motor opens and menu appears.  
 3. Choose commands: control LEDs, get temperature, or operate camera.  
